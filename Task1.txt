@@ -1,0 +1,40 @@
+
+
+
+Q1-
+-3 images by using this command:
+docker images
+
+
+
+Q2-
+docker run alpine sleep 1000
+docker ps 
+docker exec mystifying_galileo cat /etc/hosts
+
+
+
+Q3-
+docker run ubuntu:noble
+
+
+
+Q4-
+docker run -d erseco/alpine-php-webserver
+-nothing appear in this local host like in the screen shoot
+
+
+
+Q5-
+docker run -p 8080:55 erseco/alpine-php-webserver
+
+
+
+
+Q7-
+-we can search about container by using this and will get the id of the container :
+docker ps -a 
+docker stop dc897c4
+docker ps
+docker rm dc897c4
+
