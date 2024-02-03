@@ -1,11 +1,6 @@
-
-FROM node:19-alpine
-
-COPY . /app/
-COPY . /app/
-WORKDIR /app
+FROM alpine
 
 
 
-CMD [ "node","server.js" ]
+
 
